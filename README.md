@@ -1,4 +1,4 @@
-# Welcome to Loko hack  <a target="_blank" href="https://paypal.me/shubhamtyagi1" title="Donate using PayPal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" /></a>
+# Say Hello to Loko hack  <a target="_blank" href="https://paypal.me/shubhamtyagi1" title="Donate using PayPal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" /></a>
 
 * A free,open source, ad free trivia helper app that respect user sentiments
 ## Why Loko Hack
@@ -32,6 +32,21 @@
 
 * \* Not available for public
 ***
-### >P.S. I does not guarantee that app will get updated i am neither liable nor responsible for apps update.
-this is totally depends upon me wether i update this app or not.
->if someone is interested in full source code of APP can fill this form https://goo.gl/forms/1tSIAfNX9F2uAzgh2
+## Open Source License
+
+    Copyright 2018 SHUBHAM TYAGI
+    Licensed under the FOLLOWING TERMS
+    you may not use this file except in compliance with the License.
+  
+        you may do good and not evil.
+        you find forgiveness for yourself and forgive others.
+        you must share this freely, never taking and talking more than you give.
+        You must include this unmodified file to your product.
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, 
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+  
+### if someone is interested in source code of my own app you can fill [this form](https://goo.gl/forms/1tSIAfNX9F2uAzgh2)
