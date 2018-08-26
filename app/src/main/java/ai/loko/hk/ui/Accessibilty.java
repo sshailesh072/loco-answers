@@ -66,6 +66,8 @@ public class Accessibilty extends AccessibilityService {
                         case "com.prodege.swagiq":
                             swagiq(source);
                             break;
+					    case "live.stream.thequk":
+						    Qlive(source);
 
                     }
 
@@ -74,7 +76,34 @@ public class Accessibilty extends AccessibilityService {
                 }
             }
         }
+    }
 
+    private void Qlive(AccessibilityNodeInfo source) {
+        String str = "live.stream.thequk";
+        try {
+            List<AccessibilityNodeInfo> questionId = source.findAccessibilityNodeInfosByViewId(str + ":id/txt_question");
+            List<AccessibilityNodeInfo> option1id = source.findAccessibilityNodeInfosByViewId(str + ":id/lyt_answers");
+            int sizeOfQuestion = questionId.size();
+            if (sizeOfQuestion > 0) {
+
+                question = questionId.get(0).getText().toString();
+
+                option1 = option1id.get(0).getText().toString();
+                option2 = option1id.get(1).getText().toString();
+                option3 = option1id.get(2).getText().toString();
+                findAnswer(question, option1, option2, option3);
+
+                // isQuestionDisplayed = true;
+                questionId.clear();
+                option1id.clear();
+            }
+        } catch (Exception io) {
+            io.printStackTrace();
+           // Toast.makeText(this, "Error:::" + io.getMessage(), Toast.LENGTH_SHORT).show();
+            showCustomAlert("Some error occured");
+
+        }
+		
     }
 
     private void swagiq(AccessibilityNodeInfo source) {
